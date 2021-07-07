@@ -1,0 +1,20 @@
+marks = int(input("what is your mark in programming"))
+def grade(grade):
+    print(f"result {grade}")
+if marks >= 80 :
+    grade("A+")
+elif marks < 70 and marks >=80:
+    grade("A-")
+elif marks < 60 and marks >=70:
+    grade("B+")
+elif marks < 50 and marks >=60:
+    grade("B-")
+elif marks >=33:
+    grade("PASSED")
+else:
+   print("unfortunately you got F")
+if marks >= 80 and marks >= 50:
+    print("very good")
+else:
+    print("need improvemenyt")
+print("finished")
