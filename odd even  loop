@@ -8,12 +8,14 @@ even_number = []
 odd_number = []
 staring = 0
 user_input= int(input("limit: "))
-#while staring <100:
- #   if is_even(staring):
-#        even_number.append(staring)
- #   else:
- #       odd_number.append(staring)
-#    staring = staring + 1
+#while 
+while staring <100:
+      if is_even(staring):
+       even_number.append(staring)
+    else:
+        odd_number.append(staring)
+    staring = staring + 1
+#for
 for number in  range(2, user_input + 1 ):
     if is_even(number):
         even_number.append(number)
